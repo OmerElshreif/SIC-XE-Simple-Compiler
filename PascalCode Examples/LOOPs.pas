@@ -1,0 +1,17 @@
+PROGRAM SUMPROG
+VAR
+  N,SUM,I,M,J
+BEGIN 
+READ(N,M);
+SUM:= 0; 
+FOR I:= 1 TO N DO 
+   BEGIN
+ FOR J:1 TO M DO
+   BEGIN
+     SUM := SUM + I*J
+   END
+ END
+WRITE(SUM)
+END. 
+ 
+
